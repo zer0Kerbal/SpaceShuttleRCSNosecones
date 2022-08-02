@@ -17,7 +17,7 @@ Ever thought, that you need an actual nosecone for plane parts? This parts addon
 
 
 
-## By [`zer0Kerbal`][zer0Kerbal], originally by [`Kamik`][kamik]
+## By [`zer0Kerbal`][zer0Kerbal], originally by [`Kamik423`][kamik423]
 
 <!-- adopted with *express* permission and brought to you by *KerbSimpleCo* -->
 
@@ -97,7 +97,7 @@ parts, control
 
 ### Credits and Special Thanks
 
-* [Kamik][kamik] for creating this glorious parts addon!
+* [Kamik423][kamik423] for creating this glorious parts addon!
 * see [Attribution.md][MOD:attr] for more comprehensive list
 
 ### Legal Mumbo Jumbo (License *provenance*)
@@ -114,7 +114,7 @@ parts, control
 
 ##### see [Notices.md][MOD:notic] for more *legal mumbo jumbo*
 
-#### Original (0) - Author: [`Kamik`][kamik]
+#### Original (0) - Author: [`Kamik423`][kamik423]
 
 > Forum: [Thread][MOD:0:thread] - Download: [CurseForge][MOD:0:dnload] - Source: [CurseForge][MOD:0:source]  
 > License: [![License][LIC:0:shd]][LIC:0:url] ![License][LIC:0:log]
@@ -227,7 +227,7 @@ parts, control
 [twitter]: https://twitter.com/zer0Kerbal
 [youtube]: https://www.youtube.com/channel/UCp9c8IaK4Gjgfj3O9QxrbDw
 
-[kamik]: https://forum.kerbalspaceprogram.com/index.php?/profile/111881-*/ "Kamik"
+[kamik423]: https://forum.kerbalspaceprogram.com/index.php?/profile/111881-*/ "Kamik423"
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
 
 ---
