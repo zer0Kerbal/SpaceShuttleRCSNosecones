@@ -230,8 +230,6 @@ parts, control
 [kamik]: https://forum.kerbalspaceprogram.com/index.php?/profile/111881-*/ "Kamik"
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
 
-[IMG:flg:0]: https://via.placeholder.com/256x160png/ffffff/bada55?text=KGEx "Mini Sample Return Capsule Flag"
-
 ---
 
 #### Connect with me
