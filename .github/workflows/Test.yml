@@ -1,0 +1,20 @@
+name: Test
+
+on:
+  workflow_dispatch:
+    inputs:
+      template:
+        type: string
+        description: template (.github/PROJECT_TEMPLATES/)
+        required: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm install @octokit/action
+      - uses: ./
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          templateName: ${{ github.event.inputs.template }}
