@@ -1,0 +1,18 @@
+# Space Shuttle RCS Nosecone (SSRN)
+
+## Kamik423
+
+this archive has been modified:
+* structure
+* part configs modified to reflect folder structure changes
+* contents removed
+  * MACOS files
+  * plugins (TweakScale and ModuleManager)
+* contents added
+  * this readme.txt
+  * SpaceShuttleRCSNosecone.version
+  * changelog.md
+  * Attributions.htm
+  * ManualInstallation.htm
+  * GPL-3.0.txt
+* by zer0Kerbal
