@@ -1,6 +1,5 @@
 # Changelog  
   
-<<<<<<< HEAD
 | modName    | Space Shuttle RCS Nosecones (RCSN)                                    |
 | ---------- | --------------------------------------------------------------------- |
 | license    | GPL-3.0                                                               |
@@ -77,20 +76,7 @@
 
 ---
 
-## Version 3.0.0.0
-=======
-| modName    | Space Shuttle RCS Nosecone (SSRN)                                    |
-| ---------- | -------------------------------------------------------------------- |
-| license    | GPL-3.0                                                              |
-| author     | Kamik423 and zer0Kerbal                                              |
-| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/209188-*/)    |
-| github     | (https://github.com/zer0Kerbal/zer0Kerbal/SpaceShuttleRCSNosecone)   |
-| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/SpaceShuttleRCSNosecone) |
-| spacedock  | (https://spacedock.info/mod/3068)                                    |
-| ckan       | SpaceShuttleRCSNosecone                                              |
-
 ## Version 3.0.0.0-release - <Thank you Kamik423> edition
->>>>>>> master
 
 * 29 Dec 2014
 * Released for Kerbal Space Program 0.90
@@ -103,10 +89,7 @@
   * [ghostParts.cfg] v1.3.0.0
     * ssrn-long --> ssncLong
     * ssrn-short --> ssncShort
-<<<<<<< HEAD
     * to provide continuity with future versions
-=======
->>>>>>> master
 
 ### Status 3.0.0.0
 
