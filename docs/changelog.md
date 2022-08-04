@@ -130,10 +130,11 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ### Status
 
-1 - Space Shuttle RCS Nosecones (RCSN) (SSNC) 3.0.99.0-adoption `<Cone Anyone?>` edition
-2 - 3.0.99.0 Create Legal Mumbo Jumbo
-3 - 3.0.99.0 Create Documentation
-4 - 3.0.99.0 Create Social Media
+* Issues
+  * closes #1 - Space Shuttle RCS Nosecones (RCSN) (SSNC) 3.0.99.0-adoption `<Cone Anyone?>` edition
+  * closes #2 - 3.0.99.0 Create Legal Mumbo Jumbo
+  * closes #3 - 3.0.99.0 Create Documentation
+  * closes #4 - 3.0.99.0 Create Social Media
 
 ---
 
