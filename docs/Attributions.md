@@ -24,7 +24,7 @@ updated: 03 Jun 2022
 ### Credits
 
 <ul>
-  <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/111881-*/"><img border="0" alt="Kamik" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/monthly_2018_03/profilbild_small.thumb.jpg.dcf5da3ac128f730dd0de4b17b23b4fe.jpg" width="50" height="50" >Kamik</a> for creating <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/209188-*/" alt="Space Shuttle RCS Nosecone (SSRN) ">Space Shuttle RCS Nosecone (SSRN) parts addons!</a></li>
+  <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/111881-*/"><img border="0" alt="Kamik423" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/monthly_2018_03/profilbild_small.thumb.jpg.dcf5da3ac128f730dd0de4b17b23b4fe.jpg" width="50" height="50" >Kamik423</a> for creating <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/209188-*/" alt="Space Shuttle RCS Nosecone (SSRN) ">Space Shuttle RCS Nosecone (SSRN) parts addons!</a></li>
   <li><i>Thank you to everyone who gave feedback! It's very important for me and highly appreciated.</i></li>
 </ul>
 
@@ -68,7 +68,7 @@ updated: 03 Jun 2022
 <!-- links -->
 [SSRN]: https://forum.kerbalspaceprogram.com/index.php?/topic/209188-*/ "Space Shuttle RCS Nosecone (SSRN) "
 
-[Kamik]: https://forum.kerbalspaceprogram.com/index.php?/profile/111881-*/ "Kamik"
+[Kamik423]: https://forum.kerbalspaceprogram.com/index.php?/profile/111881-*/ "Kamik423"
 [cptkipard]: https://forum.kerbalspaceprogram.com/index.php?/profile/70516-*/ "Captain Kipard"
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
 
