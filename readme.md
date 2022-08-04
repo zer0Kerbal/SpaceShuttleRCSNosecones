@@ -153,7 +153,7 @@ parts, control
 <!--- mod provenance -->
 [MOD:0:dnload]: hhttps://www.curseforge.com/kerbal/ksp-mods/ssnc-space-shuttle-rcs-nosecone "CurseForge"
 [MOD:0:source]: hhttps://www.curseforge.com/kerbal/ksp-mods/ssnc-space-shuttle-rcs-nosecone "CurseForge"
-[MOD:0:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"
+[MOD:0:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/93853-*/ "KSP Forum"
 
 <!--- license provenance -->
 [LIC:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPL-3.0"
