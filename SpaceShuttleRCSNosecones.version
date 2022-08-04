@@ -1,8 +1,8 @@
 {
-	"NAME"		     : "Space Shuttle RCS Nosecone (SSRN)",
-	"URL"			 : "https://raw.githubusercontent.com/zer0Kerbal/SpaceShuttleRCSNosecone/master/SpaceShuttleRCSNosecone.version",
-	"DOWNLOAD"	     : "https://github.com/zer0Kerbal/SpaceShuttleRCSNosecone/releases/latest",
-	"CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/SpaceShuttleRCSNosecone/master/changelog.md",
+	"NAME"		     : "Space Shuttle RCS Nosecones (RCSN)",
+	"URL"			 : "https://raw.githubusercontent.com/zer0Kerbal/SpaceShuttleRCSNosecones/master/SpaceShuttleRCSNosecones.version",
+	"DOWNLOAD"	     : "https://github.com/zer0Kerbal/SpaceShuttleRCSNosecones/releases/latest",
+	"CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/SpaceShuttleRCSNosecones/master/changelog.md",
 	"GITHUB" :
 	{
 		"USERNAME"	        : "zer0Kerbal",
