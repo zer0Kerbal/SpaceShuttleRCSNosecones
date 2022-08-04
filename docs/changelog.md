@@ -14,26 +14,15 @@ updated:
 CC BY-ND 4.0 by zer0Kerbal
 --># Changelog  
   
-| modName    | Space Shuttle RCS Nosecone (SSRN)                                    |
-| ---------- | -------------------------------------------------------------------- |
-| license    | GPL-3.0                                                              |
-| author     | Kamik423 and zer0Kerbal                                              |
-| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/209188-*/)    |
-| github     | (https://github.com/zer0Kerbal/zer0Kerbal/SpaceShuttleRCSNosecone)   |
-| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/SpaceShuttleRCSNosecone) |
-| spacedock  | (https://spacedock.info/mod/3068)                                    |
-| ckan       | SpaceShuttleRCSNosecone                                              |
-# Changelog  
-  
-| modName    | Space Shuttle RCS Nosecone (SSRN)                                    |
-| ---------- | -------------------------------------------------------------------- |
-| license    | GPL-3.0                                                              |
-| author     | Kamik and zer0Kerbal                                                 |
-| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/209188-*/)    |
-| github     | (https://github.com/zer0Kerbal/zer0Kerbal/SpaceShuttleRCSNosecone)   |
-| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/SpaceShuttleRCSNosecone) |
-| spacedock  | (https://spacedock.info/mod/3010)                                        |
-| ckan       | SpaceShuttleRCSNosecone                                              |
+| modName    | Space Shuttle RCS Nosecones (RCSN)                                    |
+| ---------- | --------------------------------------------------------------------- |
+| license    | GPL-3.0                                                               |
+| author     | Kamik and zer0Kerbal                                                  |
+| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/209188-*/)     |
+| github     | (https://github.com/zer0Kerbal/zer0Kerbal/SpaceShuttleRCSNosecones)   |
+| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/SpaceShuttleRCSNosecones) |
+| spacedock  | (https://spacedock.info/mod/3068)                                     |
+| ckan       | SpaceShuttleRCSNosecones                                              |
 
 ## Version 3.0.99.0-adoption - `<EDITION>` edition
 
@@ -46,6 +35,9 @@ CC BY-ND 4.0 by zer0Kerbal
 
 * create Assets/ folder
 * convert from mesh to MODEL
+* convert from mbm to png
+  * HRuv2.mbm (3 mb) --> HRuv2.png (84.5 kb)
+  * UV23.mbm (3 mb) --> UV23.png (91.2 kb)
 * rename
   * models to unique names
   * textures to unique names
@@ -75,6 +67,10 @@ CC BY-ND 4.0 by zer0Kerbal
 
 ### Localization
 
+tags = #autoLOC_500111 //#autoLOC_500111 = aero aircraft booster )cap drag fligh plane rocket speed stab stream
+tags = #autoLOC_500941 //#autoLOC_500941 = cluster control dock maneuver manoeuvre react rendezvous rotate stab steer translate
+
+
 * Create
   * Localization/
     * <en-us.cfg>
@@ -83,6 +79,34 @@ CC BY-ND 4.0 by zer0Kerbal
 * updates #7 - Localization Master
 * closes #8 - Localization - English <en-us.cfg>
 * closes #25 - Part Localization
+
+### Parts
+
+* Add
+  * header
+  * [skinMaxTemp] = 2700
+  * [emissiveConstant] = 0.9
+  * [thermalMassModifier] = 6.0
+* Update
+  * [category] to Control from Utility
+  * [bulkheadProfiles] = mk3, srf
+  * [entryCost] from 6000 to 8000
+  * [cost] from 100 to 1000
+  * [maximum_drag] from 0.2 to 0.1
+  * [minimum_drag] from 0.2 to 0.1
+  * [angularDrag] from 1 to 0.5
+  * [maxTemp] from 3200 to 1500
+
+|                | rcsn-short | rcsn-long |
+| :------------- | :--------: | :-------: |
+| entryCost      |    8000    |   9000    |
+| cost           |    1000    |   1250    |
+| mass           |     1      |   1.05    |
+| MonoPropellant |    200     |    225    |
+| thrusterPower  |     1      |   1.25    |
+
+
+	"KSP_VERSION_MAX" :
 
 ### Add localized tags to parts
 
