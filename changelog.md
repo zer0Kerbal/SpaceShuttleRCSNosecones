@@ -92,6 +92,8 @@ tags = #autoLOC_500941 //#autoLOC_500941 = cluster control dock maneuver manoeuv
 | thrusterPower  |     1      |   1.25    |
 
 
+	"KSP_VERSION_MAX" :
+
 ### Add localized tags to parts
 
 * Add
