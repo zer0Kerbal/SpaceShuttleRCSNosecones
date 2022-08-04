@@ -25,11 +25,11 @@ This add-on adds two (2) control parts
 
 * Short
 
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/SpaceShuttleRCSNosecones/master/GameData/SpaceShuttleRCSNosecones/Parts/%40thumbs/ssrn-short_icon.png" alt="Short" width="25%" height="25%" />
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/SpaceShuttleRCSNosecones/master/GameData/SpaceShuttleRCSNosecones/Parts/%40thumbs/rcsn-short_icon.png" alt="Short" width="25%" height="25%" />
   
 * Long
 
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/SpaceShuttleRCSNosecones/master/GameData/SpaceShuttleRCSNosecones/Parts/%40thumbs/ssrn-long_icon.png" alt="Long" width="25%" height="25%" />
+  <img src="https://raw.githubusercontent.com/zer0Kerbal/SpaceShuttleRCSNosecones/master/GameData/SpaceShuttleRCSNosecones/Parts/%40thumbs/rcsn-long_icon.png" alt="Long" width="25%" height="25%" />
 
 ---
 
