@@ -7,7 +7,7 @@ tags: attributions,thank-you,directions,page,kerbal,ksp,zer0Kerbal,zedK
 
 <!--
 Attributions.md v1.0.7.1
-Space Shuttle RCS Nosecone (SSRN)
+Space Shuttle RCS Nosecones (RCSN)
 created: 01 Feb 2022
 updated: 03 Jun 2022
 -->
@@ -15,7 +15,7 @@ updated: 03 Jun 2022
 <script src="https://kit.fontawesome.com/0ea5493613.js" crossorigin="anonymous"></script>
 <i class="fa fa-gear fa-spin fa-3x" style="color: firebrick"></i>
 
-# Space Shuttle RCS Nosecone (SSRN)
+# Space Shuttle RCS Nosecones (RCSN)
 
 [Home](./index.md)
 
@@ -24,7 +24,7 @@ updated: 03 Jun 2022
 ### Credits
 
 <ul>
-  <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/111881-*/"><img border="0" alt="Kamik423" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/monthly_2018_03/profilbild_small.thumb.jpg.dcf5da3ac128f730dd0de4b17b23b4fe.jpg" width="50" height="50" >Kamik423</a> for creating <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/209188-*/" alt="Space Shuttle RCS Nosecone (SSRN) ">Space Shuttle RCS Nosecone (SSRN) parts addons!</a></li>
+  <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/111881-*/"><img border="0" alt="Kamik423" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/monthly_2018_03/profilbild_small.thumb.jpg.dcf5da3ac128f730dd0de4b17b23b4fe.jpg" width="50" height="50" >Kamik423</a> for creating <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/209188-*/" alt="Space Shuttle RCS Nosecones (RCSN) ">Space Shuttle RCS Nosecones (RCSN) parts addons!</a></li>
   <li><i>Thank you to everyone who gave feedback! It's very important for me and highly appreciated.</i></li>
 </ul>
 
@@ -66,7 +66,7 @@ updated: 03 Jun 2022
 </ul>
 
 <!-- links -->
-[SSRN]: https://forum.kerbalspaceprogram.com/index.php?/topic/209188-*/ "Space Shuttle RCS Nosecone (SSRN) "
+[SSRN]: https://forum.kerbalspaceprogram.com/index.php?/topic/209188-*/ "Space Shuttle RCS Nosecones (RCSN) "
 
 [Kamik423]: https://forum.kerbalspaceprogram.com/index.php?/profile/111881-*/ "Kamik423"
 [cptkipard]: https://forum.kerbalspaceprogram.com/index.php?/profile/70516-*/ "Captain Kipard"
