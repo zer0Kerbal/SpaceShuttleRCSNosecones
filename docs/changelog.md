@@ -14,28 +14,17 @@ updated:
 CC BY-ND 4.0 by zer0Kerbal
 --># Changelog  
   
-| modName    | Space Shuttle RCS Nosecone (SSRN)                                    |
-| ---------- | -------------------------------------------------------------------- |
-| license    | GPL-3.0                                                              |
-| author     | Kamik423 and zer0Kerbal                                              |
-| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/209188-*/)    |
-| github     | (https://github.com/zer0Kerbal/zer0Kerbal/SpaceShuttleRCSNosecone)   |
-| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/SpaceShuttleRCSNosecone) |
-| spacedock  | (https://spacedock.info/mod/3068)                                    |
-| ckan       | SpaceShuttleRCSNosecone                                              |
-# Changelog  
-  
-| modName    | Space Shuttle RCS Nosecone (SSRN)                                    |
-| ---------- | -------------------------------------------------------------------- |
-| license    | GPL-3.0                                                              |
-| author     | Kamik and zer0Kerbal                                                 |
-| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/209188-*/)    |
-| github     | (https://github.com/zer0Kerbal/zer0Kerbal/SpaceShuttleRCSNosecone)   |
-| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/SpaceShuttleRCSNosecone) |
-| spacedock  | (https://spacedock.info/mod/3010)                                        |
-| ckan       | SpaceShuttleRCSNosecone                                              |
+| modName    | Space Shuttle RCS Nosecones (RCSN) (SSCN)                             |
+| ---------- | --------------------------------------------------------------------- |
+| license    | GPL-3.0                                                               |
+| author     | Kamik and zer0Kerbal                                                  |
+| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/209188-*/)     |
+| github     | (https://github.com/zer0Kerbal/zer0Kerbal/SpaceShuttleRCSNosecones)   |
+| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/SpaceShuttleRCSNosecones) |
+| spacedock  | (https://spacedock.info/mod/3068)                                     |
+| ckan       | SpaceShuttleRCSNosecones                                              |
 
-## Version 3.0.99.0-adoption - `<EDITION>` edition
+## Version 3.0.99.0-adoption - `<Cone Anyone?>` edition
 
 * 01 Aug 2022
 * Released for Kerbal Space Program 1.12.x
@@ -46,6 +35,9 @@ CC BY-ND 4.0 by zer0Kerbal
 
 * create Assets/ folder
 * convert from mesh to MODEL
+* convert from mbm to png
+  * HRuv2.mbm (3 mb) --> HRuv2.png (84.5 kb)
+  * UV23.mbm (3 mb) --> UV23.png (91.2 kb)
 * rename
   * models to unique names
   * textures to unique names
@@ -57,6 +49,7 @@ CC BY-ND 4.0 by zer0Kerbal
   * duplicate textures
   * duplicate models
 * relocate part.cfg to Parts/
+* closes #28 - Asset Updates
 
 ### docs/
 
@@ -70,8 +63,12 @@ CC BY-ND 4.0 by zer0Kerbal
   * [Marketing.md] v1.0.1.0
   * [Notices.md] v1.0.1.0
   * Optional
-  * [Part-Catalog.md] v1.1.4.1
+  * [PartsCatalog.md] v1.1.4.1
   * [Why.md] v1.1.0.0
+* Update
+  * [.version]
+    * remove [KSP_VERSION_MAX]
+* closes #27 - docs/
 
 ### Localization
 
@@ -81,23 +78,62 @@ CC BY-ND 4.0 by zer0Kerbal
     * [readme.md] v2.1.2.0
     * [quickstart.md] v1.0.1.1
 * updates #7 - Localization Master
-* closes #8 - Localization - English <en-us.cfg>
+* closes #8 - English <en-us.cfg>
 * closes #25 - Part Localization
+* closes #29 - Localization config
+
+### Parts
+
+* Add
+  * header
+  * [skinMaxTemp] = 2700
+  * [emissiveConstant] = 0.9
+  * [thermalMassModifier] = 6.0
+  * [DRAG_CUBE]
+  * [tags] = #autoLOC_500941 //#autoLOC_500941 = cluster control dock maneuver manoeuvre react rendezvous rotate stab steer translate
+* Update
+  * [category] to Control from Utility
+  * [bulkheadProfiles] = mk3, srf
+  * [entryCost] from 6000 to 8000
+  * [cost] from 100 to 1000
+  * [maximum_drag] from 0.2 to 0.1
+  * [minimum_drag] from 0.2 to 0.1
+  * [angularDrag] from 1 to 0.5
+  * [maxTemp] from 3200 to 1500
+  * [attachRules] 1,1,1,1,1 to 1,1,1,1,0
+  * [EFFECTS]
+    * [running]
+      * [MODEL_MULTI_PARTICLE]
+        * [transformName] = rcsT
+      * [AUDIO_MULTI_POOL]
+        * [transformName] = rcsT
+* closes #32 - Update Parts
+* closes #33 - [BUG] Missing FX on running
+
+|                 | rcsn-short | rcsn-long |
+| :-------------- | :--------: | :-------: |
+| entryCost       |    8000    |   9000    |
+| cost            |    1000    |   1250    |
+| mass            |     1      |   1.05    |
+| MonoPropellant  |    200     |    225    |
+| thrusterPower   |     1      |   1.25    |
+| ModuleCargoPart |    1050    |   1500    |
 
 ### Add localized tags to parts
 
 * Add
   * [SpaceShuttleRCSNosecone.cfg] v1.0.0.0
-    * adds localized tags to parts
-* closes # - Add localized tags to parts
+    * adds
+      * localized tags to parts
+      * [tags] = #autoLOC_500111 //#autoLOC_500111 = aero aircraft booster )cap drag fligh plane rocket speed stab stream
+* closes #30 - Add localized tags to parts
 
 ### Status
 
-* Issues
-  * closes #1 - Space Shuttle RCS Nosecone (SRNC) 3.0.99.0-adoption `<EDITION>` edition
-  * closes #2 - 3.0.99.0 Create Legal Mumbo Jumbo
-  * closes #3 - 3.0.99.0 Create Documentation
-  * closes #4 - 3.0.99.0 Create Social Media
+1 - Space Shuttle RCS Nosecones (RCSN) (SSNC) 3.0.99.0-adoption `<Cone Anyone?>` edition
+2 - 3.0.99.0 Create Legal Mumbo Jumbo
+3 - 3.0.99.0 Create Documentation
+4 - 3.0.99.0 Create Social Media
 
 ---
 

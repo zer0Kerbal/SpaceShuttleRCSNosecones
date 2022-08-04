@@ -36,8 +36,6 @@ Ever thought, that you need an actual nosecone for plane parts? This parts addon
 
 ---
 
-![Hero Image][IMG:hero:0]
-
 ### Help Wanted
 
 > * Compatibility patches
