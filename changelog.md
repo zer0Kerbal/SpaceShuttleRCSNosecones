@@ -21,6 +21,10 @@
 
 * create Assets/ folder
 * convert from mesh to MODEL
+* convert from mbm to png
+  * HRuv2.mbm (3 mb) --> HRuv2.png (84.5 kb)
+  * UV23.mbm (3 mb) --> UV23.png (91.2 kb)
+  * 
 * rename
   * models to unique names
   * textures to unique names
