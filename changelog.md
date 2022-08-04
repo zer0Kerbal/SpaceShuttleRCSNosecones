@@ -24,7 +24,6 @@
 * convert from mbm to png
   * HRuv2.mbm (3 mb) --> HRuv2.png (84.5 kb)
   * UV23.mbm (3 mb) --> UV23.png (91.2 kb)
-  * 
 * rename
   * models to unique names
   * textures to unique names
@@ -54,6 +53,10 @@
 
 ### Localization
 
+tags = #autoLOC_500111 //#autoLOC_500111 = aero aircraft booster )cap drag fligh plane rocket speed stab stream
+tags = #autoLOC_500941 //#autoLOC_500941 = cluster control dock maneuver manoeuvre react rendezvous rotate stab steer translate
+
+
 * Create
   * Localization/
     * <en-us.cfg>
@@ -62,6 +65,32 @@
 * updates #7 - Localization Master
 * closes #8 - Localization - English <en-us.cfg>
 * closes #25 - Part Localization
+
+### Parts
+
+* Add
+  * header
+  * [skinMaxTemp] = 2700
+  * [emissiveConstant] = 0.9
+  * [thermalMassModifier] = 6.0
+* Update
+  * [category] to Control from Utility
+  * [bulkheadProfiles] = mk3, srf
+  * [entryCost] from 6000 to 8000
+  * [cost] from 100 to 1000
+  * [maximum_drag] from 0.2 to 0.1
+  * [minimum_drag] from 0.2 to 0.1
+  * [angularDrag] from 1 to 0.5
+  * [maxTemp] from 3200 to 1500
+
+|                | rcsn-short | rcsn-long |
+| :------------- | :--------: | :-------: |
+| entryCost      |    8000    |   9000    |
+| cost           |    1000    |   1250    |
+| mass           |     1      |   1.05    |
+| MonoPropellant |    200     |    225    |
+| thrusterPower  |     1      |   1.25    |
+
 
 ### Add localized tags to parts
 
