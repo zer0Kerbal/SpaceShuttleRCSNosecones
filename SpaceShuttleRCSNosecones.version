@@ -1,0 +1,42 @@
+{
+	"NAME"		     : "Space Shuttle RCS Nosecones (RCSN)",
+	"URL"			 : "https://raw.githubusercontent.com/zer0Kerbal/SpaceShuttleRCSNosecones/master/SpaceShuttleRCSNosecones.version",
+	"DOWNLOAD"	     : "https://github.com/zer0Kerbal/SpaceShuttleRCSNosecones/releases/latest",
+	"CHANGE_LOG_URL" : "https://raw.githubusercontent.com/zer0Kerbal/SpaceShuttleRCSNosecones/master/changelog.md",
+	"GITHUB" :
+	{
+		"USERNAME"	        : "zer0Kerbal",
+		"REPOSITORY"		: "SpaceShuttleRCSNosecone",
+		"ALLOW_PRE_RELEASE" : false
+	},
+	"VERSION" :
+	{
+		"MAJOR" : 3,
+		"MINOR" : 0,
+		"PATCH" : 0,
+		"BUILD" : 0
+	},
+	"KSP_VERSION" :
+	{
+		"MAJOR" : 0,
+		"MINOR" : 90,
+		"PATCH" : 0
+	},
+	"KSP_VERSION_MIN" :
+	{
+		"MAJOR" : 0,
+		"MINOR" : 90,
+		"PATCH" : 0
+	},
+	"KSP_VERSION_MAX" :
+	{
+		"MAJOR" : 1,
+		"MINOR" : 3,
+		"PATCH" : 9999
+	},
+	"INSTALL_LOC" :
+	{
+		"NAME" :	  "SpaceShuttleRCSNosecone",
+		"DIRECTORY" : "SpaceShuttleRCSNosecone"
+	}
+}
