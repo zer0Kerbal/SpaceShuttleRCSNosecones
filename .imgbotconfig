@@ -1,7 +1,7 @@
 {
     "schedule": "weekly",
     "ignoredFiles": [
-        "GameData/SpaceShuttleNosecone/*",
+        "GameData/SpaceShuttleNosecones/*",
         "source/*",
         "**/@thumbs/**",
         "**/Agencies/**",
